@@ -1,11 +1,23 @@
 .desaparecer {
-  display:none
+  display:none;
 }
-body{
-  font-family: 'Roboto Condensed', sans-serif;
-  background-image: https://media.istockphoto.com/vectors/agave-vector-id614036116?k=6&m=614036116&s=612x612&w=0&h=ncBvHylnl_N_-O-2esjS1mSzRInldmJm5N23K2y2Yeo=
-  }
-  #encabezado{
-    text-align: center
+fontface { font-family: 'Roboto Condensed', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap);
 
-  } 
+  }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  }
+
+ body {
+   background-image: url("https://media.istockphoto.com/vectors/agave-vector-id614036116?k=6&m=614036116&s=612x612&w=0&h=ncBvHylnl_N_-O-2esjS1mSzRInldmJm5N23K2y2Yeo= ");
+   width:auto;
+   height:inherit;
+   background-size: 100% 100%;
+   text-align: center;
+   overflow: hidden;
+   font-style: : 'Roboto Condensed';
+
+  }
