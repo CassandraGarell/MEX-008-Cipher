@@ -8,32 +8,61 @@
   </head>
   <body>
     <div id="root">
-      <h1>
-        <section id="primerSeccion">
-               <h1 id="encabezado">  <h1>CONSEJOS DE PARTICIPACIÓN CIUDADANA<h2>CUAUTITLÁN</h1>
-            <label>  </label>
-            <input type='text' placeholder= "Inserta tu nombre" id='nombreColonia' value=' '>
-           <button  id= "botonColonia" > Enviar</button>
-           </section>
-         </div>
+      <h1> <section>
+            <h1 id="encabezado">  <h1>CONSEJOS DE PARTICIPACIÓN CIUDADANA<h2>CUAUTITLÁN</h1>
+            <br>
 
-         <div>
+           <section id="instrucciones"> <p> Para volver confidencial tu mensaje, por favor elige un número de uno o dos dígitos en el espacio "D", copia y no olvides agregar en su mensaje el código "D"</p>
+           </section>
+            <br>
+
+           <section id="offset-cifrar">
+             <input id="desplazar-cifrar" type="text" placeholder="Número de máx 2 dígitos">
+             <button  id= "desplazamiento-cifrar"> Código "D"</button>
+           </section>
+
+           <section id="seccion-cifrado">
+              <input id="cifrar "type="text" placeholder="Mensaje aquí">
+              <button id="cifrado">Vuelve tu mensaje confidencial</button>
+              <br>
+              <br>
+           </section>
+
+           <section label for="">Tu mensaje cifrado es: </label>
+             <input id="resultado-cifrar" type="text">
+           </section>
+
+          <section> <p> A continuación, puedes descifrar un mensaje en clave"<p>
+
+            <section id="offset-descifrar">
+              <input id="desplazar-descifrar" type="text" placeholder="Máximo dos dígitos">
+              <button  id= "desplazamiento-descifrar"> Código "D"</button>
+            </section>
+
+           <section id="seccion-descifrado">
+              <input id="descifrar "type="text" placeholder="Mensaje aquí">
+              <button id="descifrado">Descifra tu mensaje aquí</button>
+              <br>
+           </section>
+
+           <section label for="">Tu mensaje descifrado es: </label>
+             <input id="resultado-descifrar" type="text">
+           </sectio
+
+
+         <!-- <div>
            <br>
            <br>
            <section><p id="contenido" class="desaparecer"> Envía tu mensaje cifrado</p></section>
            <section><button  id= "cifrado" class="desaparecer"> Cifrar </button>
          </div>
+         <div>
            <br>
            <br>
            <button  id= "descifrado" class="desaparecer" > Descifrar </button>
            <section  id= "aparecerCifrado" class="desaparecer">
-          </div>
+          </div> -->
 
-
-
-
-
-      </h1>
 
     </div>
     <script src="cipher.js"></script>

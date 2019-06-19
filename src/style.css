@@ -1,8 +1,9 @@
 .desaparecer {
   display:none;
 }
+
 fontface { font-family: 'Roboto Condensed', sans-serif;
-  src: url(https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap);
+  src: url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
 
   }
 
